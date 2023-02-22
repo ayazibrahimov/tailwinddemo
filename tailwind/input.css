@@ -7,7 +7,9 @@
     @apply inline-block px-4 py-2 rounded-lg hover:bg-indigo-500 cursor-pointer transition-colors; 
 }
 
-
+.h-sik{ /* Klass yazib tamamlamaq olur */
+  height: 3.75rem;       
+}
 
 
 

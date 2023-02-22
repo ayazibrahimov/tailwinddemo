@@ -3,7 +3,15 @@ module.exports = {
   mode:"jit",  
   content: ["./src/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        twitter: 'blue'
+      },
+      spacing: { /* ozunen tamamlamaq */
+         '15': '5rem',
+      },
+
+    },
   },
   plugins: [],
 }
